@@ -1,0 +1,598 @@
+[
+    {
+        "Activity": "Swimming",
+        "Days": {
+            "Monday": [
+                "Patricia Choi",
+                "Li Martin",
+                "Mei Johnson",
+                "Zhang Tanaka",
+                "Vivaan Gonzalez",
+                "Susan Sharma",
+                "James Hernandez"
+            ],
+            "Tuesday": [
+                "Jiya Banerjee",
+                "Li Kim",
+                "Sarah Gupta"
+            ],
+            "Wednesday": [
+                "Richard Johnson",
+                "Sakura Takahashi",
+                "Mei Johnson",
+                "Zhang Tanaka",
+                "Jennifer Kobayashi"
+            ],
+            "Thursday": [
+                "James Hernandez",
+                "Meera Sato",
+                "Linda Hernandez",
+                "Arjun Garcia",
+                "Vikram Wilson",
+                "Vivaan Gonzalez",
+                "Chen Moore",
+                "Sakura Chatterjee",
+                "Vikram Gonzalez",
+                "Chen Sharma",
+                "Aiko Patel",
+                "Robert Wilson"
+            ],
+            "Friday": [
+                "Meera Miller",
+                "James Hernandez",
+                "David Tanaka",
+                "Linda Jones",
+                "Richard Williams"
+            ],
+            "Saturday": [
+                "Aiko Patel",
+                "Sakura Takahashi",
+                "James Jackson"
+            ],
+            "Sunday": []
+        }
+    },
+    {
+        "Activity": "Hiking",
+        "Days": {
+            "Monday": [
+                "Joseph Park",
+                "Richard Davis",
+                "Jiya Garcia",
+                "Susan Jung",
+                "Aarav Singh",
+                "Isha Lee",
+                "Li Kim"
+            ],
+            "Tuesday": [
+                "Jiya Lee",
+                "Linda Sharma",
+                "Jennifer Kobayashi",
+                "John Wilson",
+                "Liu Dutta",
+                "Linda Hernandez"
+            ],
+            "Wednesday": [
+                "Aarav Martin",
+                "Mary Nakamura",
+                "Sakura Takahashi",
+                "Sarah Tanaka",
+                "Charles Martin",
+                "Joseph Park"
+            ],
+            "Thursday": [
+                "Vivaan Gonzalez",
+                "Aiko Patel",
+                "James Hernandez",
+                "Arjun Sharma",
+                "Isha Williams",
+                "Richard Singh",
+                "Mary Jung",
+                "David Davis"
+            ],
+            "Friday": [
+                "Mei Wilson",
+                "Linda Moore"
+            ],
+            "Saturday": [
+                "Isha Johnson",
+                "Charles Davis",
+                "Richard Nakamura",
+                "Jessica Jung",
+                "Liu Das",
+                "Charles Patel",
+                "Hina Lopez"
+            ],
+            "Sunday": [
+                "Mei Wilson",
+                "Wang Sharma",
+                "Charles Martin",
+                "Linda Hernandez",
+                "James Jackson",
+                "Sakura Chatterjee",
+                "Thomas Gonzalez",
+                "Liu Hernandez",
+                "Karen Park",
+                "John Wilson",
+                "David Tanaka",
+                "Patricia Rodriguez"
+            ]
+        }
+    },
+    {
+        "Activity": "Painting",
+        "Days": {
+            "Monday": [
+                "Hina Kobayashi",
+                "Linda Moore",
+                "John Lee"
+            ],
+            "Tuesday": [
+                "Li Martin",
+                "Linda Moore"
+            ],
+            "Wednesday": [
+                "Vikram Bose",
+                "Charles Patel",
+                "Arjun Sharma",
+                "John Tanaka",
+                "Jiya Banerjee",
+                "Liu Das",
+                "Wang Jones",
+                "Isha Takahashi"
+            ],
+            "Thursday": [
+                "Susan Gupta",
+                "Sakura Brown"
+            ],
+            "Friday": [
+                "Sakura Chatterjee",
+                "Meera Wilson",
+                "Jiya Lee",
+                "Anika Das",
+                "Wang Sharma",
+                "Meera Jones",
+                "Aditya Moore",
+                "Aarav Rodriguez"
+            ],
+            "Saturday": [
+                "Sarah Martinez",
+                "Liu Das",
+                "Hina Nakamura",
+                "Li Kim",
+                "Michael Davis",
+                "Arjun Kim",
+                "Patricia Choi",
+                "Susan Jung",
+                "Liu Thomas"
+            ],
+            "Sunday": [
+                "Joseph Park",
+                "Meera Sato",
+                "Vivaan Bose",
+                "Arjun Rodriguez",
+                "Isha Johnson",
+                "Charles Park",
+                "Charles Choi",
+                "Vivaan Davis"
+            ]
+        }
+    },
+    {
+        "Activity": "Reading",
+        "Days": {
+            "Monday": [
+                "Charles Patel",
+                "Liu Wilson",
+                "John Wilson",
+                "Aiko Jackson",
+                "Jennifer Sato",
+                "Mei Wilson",
+                "Patricia Choi",
+                "Anika Choi",
+                "Yuki Jung",
+                "Linda Hernandez",
+                "Jiya Chatterjee",
+                "Arjun Rodriguez"
+            ],
+            "Tuesday": [
+                "Jiya Garcia",
+                "Anika Choi",
+                "Arjun Dutta",
+                "Jennifer Nakamura",
+                "Li Jackson",
+                "Yuki Anderson",
+                "Thomas Lee",
+                "Sarah Martinez"
+            ],
+            "Wednesday": [
+                "Aditya Moore",
+                "Hina Kobayashi",
+                "Zhang Garcia",
+                "Richard Davis",
+                "Sarah Tanaka",
+                "Robert Wilson",
+                "Charles Martin",
+                "Linda Sharma",
+                "Sarah Sato",
+                "Yuki Jung",
+                "Sarah Takahashi",
+                "Sarah Smith"
+            ],
+            "Thursday": [
+                "Joseph Brown",
+                "Vivaan Gonzalez",
+                "Isha Rodriguez",
+                "Liu Wilson",
+                "Arjun Choi",
+                "Richard Johnson",
+                "Mei Wilson",
+                "Susan Wilson",
+                "Karen Singh",
+                "Vikram Gonzalez"
+            ],
+            "Friday": [
+                "Arjun Garcia",
+                "Vikram Wilson",
+                "William Wilson",
+                "Aiko Patel",
+                "Patricia Jung"
+            ],
+            "Saturday": [
+                "Elizabeth Anderson",
+                "Jiya Banerjee",
+                "Jennifer Sato",
+                "Linda Hernandez",
+                "Isha Choi",
+                "William Sharma",
+                "Vikram Gonzalez",
+                "Wang Jones",
+                "James Jackson",
+                "Richard Johnson",
+                "Aditya Moore"
+            ],
+            "Sunday": []
+        }
+    },
+    {
+        "Activity": "Cooking",
+        "Days": {
+            "Monday": [],
+            "Tuesday": [
+                "Elizabeth Anderson",
+                "Sarah Smith",
+                "Joseph Jones",
+                "Hina Nakamura",
+                "Meera Wilson",
+                "Saanvi Jones",
+                "Michael Jones",
+                "Meera Jones",
+                "Susan Gupta"
+            ],
+            "Wednesday": [
+                "Sakura Hernandez",
+                "Michael Anderson",
+                "Karen Park",
+                "Elizabeth Anderson",
+                "Jennifer Kobayashi",
+                "Zhang Patel",
+                "Charles Patel",
+                "Richard Davis",
+                "Isha Sharma",
+                "Linda Jackson"
+            ],
+            "Thursday": [],
+            "Friday": [
+                "Wang Anderson",
+                "Sakura Lee",
+                "Charles Patel",
+                "Joseph Rodriguez",
+                "Elizabeth Davis",
+                "Mary Nakamura",
+                "Susan Bose",
+                "James Patel",
+                "Karen Jones"
+            ],
+            "Saturday": [
+                "Patricia Kumar",
+                "Vivaan Thomas",
+                "Li Jackson",
+                "Arjun Dutta",
+                "Linda Jackson"
+            ],
+            "Sunday": [
+                "Zhang Martinez"
+            ]
+        }
+    },
+    {
+        "Activity": "Yoga",
+        "Days": {
+            "Monday": [
+                "William Chatterjee",
+                "Robert Wilson",
+                "Isha Rodriguez"
+            ],
+            "Tuesday": [
+                "Joseph Rodriguez",
+                "Richard Johnson",
+                "John Wilson",
+                "John Tanaka",
+                "Hina Jones",
+                "Aiko Nakamura",
+                "Jiya Chatterjee",
+                "Thomas Lee",
+                "Saanvi Sharma",
+                "Karen Park",
+                "Meera Takahashi"
+            ],
+            "Wednesday": [],
+            "Thursday": [
+                "Susan Gupta"
+            ],
+            "Friday": [
+                "Wang Anderson",
+                "Wang Kumar",
+                "Jessica Singh",
+                "Richard Johnson",
+                "Sakura Chatterjee",
+                "Yuki Jung",
+                "Vivaan Thomas",
+                "Meera Takahashi",
+                "Isha Williams"
+            ],
+            "Saturday": [
+                "Sarah Jung",
+                "Liu Dutta",
+                "James Lopez",
+                "Arjun Jung",
+                "Yuki Anderson",
+                "Elizabeth Davis",
+                "William Sharma",
+                "Aarav Rodriguez",
+                "Aditya Moore",
+                "Li Kim"
+            ],
+            "Sunday": [
+                "Wang Anderson"
+            ]
+        }
+    },
+    {
+        "Activity": "Cycling",
+        "Days": {
+            "Monday": [
+                "Jiya Garcia",
+                "Richard Takahashi",
+                "Joseph Brown",
+                "Aiko Nakamura",
+                "Aiko Patel"
+            ],
+            "Tuesday": [
+                "Charles Park"
+            ],
+            "Wednesday": [
+                "Vikram Bose"
+            ],
+            "Thursday": [
+                "Richard Davis",
+                "Aarav Singh",
+                "Charles Lopez",
+                "Susan Gupta",
+                "Sarah Jung",
+                "Susan Johnson",
+                "Charles Martin",
+                "Sarah Martin",
+                "Isha Choi",
+                "Mary Nakamura"
+            ],
+            "Friday": [
+                "Wang Singh",
+                "Susan Gupta",
+                "Michael Jones",
+                "David Williams",
+                "Charles Lopez",
+                "Mei Sato",
+                "Meera Miller",
+                "John Wilson",
+                "Sarah Johnson",
+                "Joseph Das",
+                "Sakura Miller"
+            ],
+            "Saturday": [],
+            "Sunday": [
+                "Sarah Martinez",
+                "Liu Thomas",
+                "Charles Martin",
+                "Jennifer Nakamura",
+                "James Hernandez",
+                "Hina Jones"
+            ]
+        }
+    },
+    {
+        "Activity": "Gardening",
+        "Days": {
+            "Monday": [
+                "Jennifer Nakamura",
+                "Arjun Garcia",
+                "Anika Das",
+                "Vikram Brown",
+                "Susan Gupta"
+            ],
+            "Tuesday": [
+                "Richard Nakamura",
+                "Mary Bose",
+                "Meera Smith",
+                "Susan Johnson",
+                "Sakura Chatterjee",
+                "Chen Sharma",
+                "Charles Lopez",
+                "Arjun Sharma",
+                "Saanvi Hernandez",
+                "Isha Sato",
+                "Meera Jones"
+            ],
+            "Wednesday": [
+                "Jessica Moore",
+                "Sarah Sato",
+                "Joseph Das",
+                "Sakura Lee",
+                "Mei Kim",
+                "Isha Sharma",
+                "Barbara Choi",
+                "Wang Singh"
+            ],
+            "Thursday": [
+                "Charles Choi",
+                "Aiko Park",
+                "Mary Nakamura",
+                "Vivaan Garcia"
+            ],
+            "Friday": [
+                "Sakura Lee",
+                "Jennifer Nakamura",
+                "Meera Takahashi"
+            ],
+            "Saturday": [
+                "Liu Wilson",
+                "Vivaan Bose",
+                "Li Johnson",
+                "Jennifer Sato",
+                "Isha Johnson",
+                "Richard Johnson",
+                "Jessica Singh",
+                "Susan Jung",
+                "Sarah Sato"
+            ],
+            "Sunday": [
+                "Jennifer Nakamura",
+                "Aiko Jackson",
+                "Yuki Gonzalez",
+                "Hina Lopez",
+                "Yuki Kobayashi",
+                "John Lee",
+                "William Sharma",
+                "Li Kim",
+                "Meera Wilson",
+                "James Jackson"
+            ]
+        }
+    },
+    {
+        "Activity": "Photography",
+        "Days": {
+            "Monday": [],
+            "Tuesday": [
+                "Isha Williams",
+                "Patricia Jung",
+                "Arjun Rodriguez",
+                "Aiko Jackson",
+                "Susan Bose",
+                "Vivaan Bose",
+                "John Lee",
+                "Hina Lee",
+                "Sakura Miller",
+                "Isha Sato"
+            ],
+            "Wednesday": [
+                "Vivaan Bose",
+                "Joseph Jones",
+                "William Sharma",
+                "James Lopez"
+            ],
+            "Thursday": [],
+            "Friday": [
+                "Wang Singh",
+                "Liu Dutta",
+                "Vikram Kobayashi",
+                "Vikram Bose",
+                "Sakura Takahashi",
+                "Liu Chatterjee",
+                "Patricia Kumar",
+                "Richard Davis",
+                "Susan Gupta",
+                "Linda Sharma"
+            ],
+            "Saturday": [
+                "Joseph Rodriguez",
+                "Patricia Rodriguez",
+                "Charles Lopez",
+                "Arjun Jung",
+                "Thomas Lee",
+                "Robert Wilson"
+            ],
+            "Sunday": [
+                "Aarav Kumar",
+                "Yuki Jung"
+            ]
+        }
+    },
+    {
+        "Activity": "Dancing",
+        "Days": {
+            "Monday": [
+                "Aiko Jackson",
+                "Patricia Rodriguez",
+                "Sarah Tanaka",
+                "Mary Bose",
+                "Isha Sharma"
+            ],
+            "Tuesday": [
+                "Liu Dutta",
+                "Vivaan Bose",
+                "Vikram Sharma",
+                "Aiko Choi",
+                "John Das",
+                "Jennifer Kobayashi"
+            ],
+            "Wednesday": [
+                "Wang Sharma",
+                "Isha Patel",
+                "Wang Singh",
+                "Joseph Park",
+                "Susan Wilson",
+                "Aiko Patel",
+                "Elizabeth Davis",
+                "Saanvi Lee",
+                "Michael Anderson",
+                "Charles Moore",
+                "William Sharma"
+            ],
+            "Thursday": [
+                "Wang Singh"
+            ],
+            "Friday": [
+                "Wang Anderson",
+                "Charles Park",
+                "Vivaan Bose",
+                "Sarah Johnson",
+                "Li Kim",
+                "Jennifer Sato",
+                "William Chatterjee",
+                "Arjun Dutta",
+                "Isha Choi",
+                "Vikram Brown",
+                "Richard Singh",
+                "Arjun Kim"
+            ],
+            "Saturday": [
+                "Joseph Brown",
+                "Thomas Lee",
+                "Hina Brown",
+                "David Davis",
+                "Charles Moore",
+                "Charles Park",
+                "Mary Jung",
+                "Meera Wilson"
+            ],
+            "Sunday": [
+                "Mary Jung",
+                "Jessica Park",
+                "Isha Johnson",
+                "Arjun Moore",
+                "Arjun Jones"
+            ]
+        }
+    }
+]

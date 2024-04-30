@@ -1,53 +1,74 @@
 import React, { useState, useEffect } from 'react';
 
-const GraphComponent = ({ users }) => {
+const GraphComponent = ({ userIDs }) => {
     const [components, setComponents] = useState([]);
 
-    // Function to perform DFS and find connected components
+    useEffect(() => {
+        const loadUsers = () => {
+            const data = localStorage.getItem('userData');
+            return data ? JSON.parse(data) : [];
+        };
+
+        const users = loadUsers();
+        const allComponents = findComponents(users, userIDs);
+        connectSingleMemberComponents(allComponents); // New function call to handle single-member components
+        setComponents(allComponents);
+    }, [userIDs]);
+
     const dfs = (node, visited, adjList, component) => {
         visited[node] = true;
         component.push(node);
 
-        adjList[node].forEach(friend => {
-            if (!visited[friend]) {
-                dfs(friend, visited, adjList, component);
-            }
-        });
+        if (adjList[node] && Array.isArray(adjList[node])) {
+            adjList[node].forEach(friend => {
+                if (!visited[friend]) {
+                    dfs(friend, visited, adjList, component);
+                }
+            });
+        }
     };
 
-    // Function to find all connected components
-    const findComponents = () => {
+    const findComponents = (users, userIDs) => {
         const adjList = {};
         const visited = {};
+        
         users.forEach(user => {
-            adjList[user['User ID']] = user.Friends;
-            visited[user['User ID']] = false;
+            if (userIDs.includes(user['User ID'])) {
+                adjList[user['User ID']] = user.Friends ? user.Friends.filter(friend => userIDs.includes(friend)) : [];
+                console.log(adjList[user['User ID']])
+                visited[user['User ID']] = false;
+            }
         });
 
         const allComponents = [];
-        for (let user of users) {
-            const userId = user['User ID'];
-            if (!visited[userId]) {
+        userIDs.forEach(userId => {
+            if (userId in visited && !visited[userId]) {
                 const component = [];
                 dfs(userId, visited, adjList, component);
                 allComponents.push(component);
             }
-        }
+        });
         return allComponents;
     };
 
-    useEffect(() => {
-        const allComponents = findComponents();
-        setComponents(allComponents);
-    }, [users]);
+    const connectSingleMemberComponents = (components) => {
+        const singleMembers = components.filter(comp => comp.length === 1).flat();
+        const multiMembers = components.filter(comp => comp.length > 1);
+
+        if (singleMembers.length > 1) { // Only connect if there are at least two single members
+            multiMembers.push(singleMembers);
+        }
+
+        setComponents(multiMembers);
+    };
 
     return (
         <div>
-            <h2>Connected Components of Friends</h2>
+            <h4>Friend groups</h4>
             {components.map((comp, index) => (
                 <div key={index}>
-                    <h3>Component {index + 1}</h3>
-                    <p>Members: {comp.join(', ')}</p>
+                    <h5>Friend Group {index + 1}</h5>
+                    <p>{comp.join(', ')}</p>
                 </div>
             ))}
         </div>
