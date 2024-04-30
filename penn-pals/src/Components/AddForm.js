@@ -4,10 +4,9 @@ import {
   DialogContentText, FormControl, InputLabel, Select, MenuItem
 } from '@mui/material';
 
-// Initialize users from Local Storage or fallback to default data
 const loadUsers = () => {
   const data = localStorage.getItem('userData');
-  return data ? JSON.parse(data) : []; // Replace [] with your default users data if needed
+  return data ? JSON.parse(data) : [];
 }
 
 export default function FormDialog({ title }) {

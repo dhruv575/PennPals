@@ -18,7 +18,6 @@ const App = () => {
       setUserData(JSON.parse(loadUserData));
       setActivityGroupsData(JSON.parse(loadActivityGroupsData));
     } else {
-      // Initialize Local Storage with default data
       localStorage.setItem('userData', JSON.stringify(defaultUserData));
       localStorage.setItem('activityGroupsData', JSON.stringify(defaultActivityGroupsData));
       setUserData(defaultUserData);

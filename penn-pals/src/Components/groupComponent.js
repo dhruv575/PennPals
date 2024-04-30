@@ -12,8 +12,8 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     gap: '10px',
-    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.3)', // Add drop shadow
-    margin: '1rem 2rem', // Add margin around the larger box
+    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.3)',
+    margin: '1rem 2rem',
   },
   dayBox: {
     marginBottom: '10px',
@@ -22,7 +22,7 @@ const styles = {
     border: '1px solid #ffa500',
     borderRadius: '3px',
     backgroundColor: '#FFF8E1',
-    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.3)', // Add drop shadow for inner boxes
+    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.3)', 
   },
 };
 

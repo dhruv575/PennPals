@@ -20,7 +20,6 @@ export default function UserFormDialog() {
     if (storedActivities) {
       setActivityGroups(JSON.parse(storedActivities));
     } else {
-      // Assuming you set up an initial data structure elsewhere in your app
       localStorage.setItem('activityGroupsData', JSON.stringify([]));
     }
   }, []);
@@ -50,7 +49,6 @@ export default function UserFormDialog() {
     console.log('Selected Activities:', selectedActivities);
     console.log('Available Days:', availableDays);
 
-    // Update activity groups data
     const updatedActivityGroups = activityGroups.map(group => {
       const newDays = {...group.Days};
       selectedActivities.forEach(activity => {
@@ -68,7 +66,6 @@ export default function UserFormDialog() {
       return {...group, Days: newDays};
     });
 
-    // Save the updated data to Local Storage
     localStorage.setItem('activityGroupsData', JSON.stringify(updatedActivityGroups));
     setOpen(false);
   };

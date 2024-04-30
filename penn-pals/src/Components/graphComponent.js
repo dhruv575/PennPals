@@ -11,8 +11,7 @@ const GraphComponent = ({ userIDs }) => {
 
         const users = loadUsers();
         const allComponents = findComponents(users, userIDs);
-        connectSingleMemberComponents(allComponents); // New function call to handle single-member components
-        setComponents(allComponents);
+        connectSingleMemberComponents(allComponents);
     }, [userIDs]);
 
     const dfs = (node, visited, adjList, component) => {
@@ -54,11 +53,9 @@ const GraphComponent = ({ userIDs }) => {
     const connectSingleMemberComponents = (components) => {
         const singleMembers = components.filter(comp => comp.length === 1).flat();
         const multiMembers = components.filter(comp => comp.length > 1);
-
-        if (singleMembers.length > 1) { // Only connect if there are at least two single members
+        if (singleMembers.length > 0) { 
             multiMembers.push(singleMembers);
         }
-
         setComponents(multiMembers);
     };
 

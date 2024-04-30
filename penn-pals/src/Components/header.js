@@ -37,12 +37,12 @@ function Header() {
           style={{
             display: 'flex',
             justifyContent: 'center',
-            width: '22rem',
+            width: '28rem',
           }}
         >
           <img
-              src="https://i.ibb.co/jzbKcKk/pprect-removebg-preview.png"
-              alt="Penn Pals Logo"
+              src="https://i.ibb.co/Xy4hdfs/logo-rectangle-removebg-preview.png"
+              alt="Penn Buddies Logo"
               className="w-1/6 h-auto logo"
               width="w00px"
               height="70px"
